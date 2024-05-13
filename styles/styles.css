@@ -45,6 +45,6 @@ aside img {
 /* Position the heading absolutely within the relative container aside */
 aside h2 {
   position: absolute;
-  top: 10px; /* Adjust as needed */
-  left: 10px; /* Adjust as needed */
+  top: 20px; /* Adjust as needed */
+  left: 20px; /* Adjust as needed */
 }
