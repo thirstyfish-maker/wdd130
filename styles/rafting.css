@@ -83,8 +83,10 @@ footer p {
 }
 
 footer a img {
-    width: 32px; /* Adjust as needed */
-    margin-right: 10px;
+    height: auto;       /* Maintain aspect ratio */
+    width: auto;        /* Maintain aspect ratio */
+    max-width: 32px;    /* Maximum width for the logos */
+    max-height: 32px;   /* Maximum height for the logos */
 }
 
 main h2 {
