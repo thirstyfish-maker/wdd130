@@ -77,12 +77,13 @@ footer {
 }
 
 footer a img {
-    height: auto;       /* Maintain aspect ratio */
-    width: auto;        /* Maintain aspect ratio */
-    max-width: 32px;    /* Maximum width for the logos */
-    max-height: 32px;   /* Maximum height for the logos */
-    display: inline;    /* Ensure the images are not displayed as block elements */
+    height: auto;
+    width: auto;
+    max-width: 32px !important;
+    max-height: 32px !important;
+    display: block;
 }
+
 footer p {
     color: var(--footer-secondary-text-color);
     margin: 0.5em 0;
