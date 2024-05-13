@@ -4,13 +4,28 @@
   box-sizing: border-box;
 }
 
+nav {
+  /* Styles for the navigation container */
+}
+
+nav a {
+  text-decoration: none;
+  margin-right: 10px;
+  /* Additional styles for navigation links */
+}
+
+h1 {
+  /* Styles for the main heading */
+}
+
 main {
-  width: 80%;
+  max-width: 80%;
+  margin: auto;
 }
 
 main img {
   float: right;
-  margin-left: 20px; /* Add a bit of space between the image and text */
+  margin-left: 20px;
 }
 
 p {
@@ -23,7 +38,6 @@ footer {
   text-align: center;
 }
 
-/* Class Selectors */
 .box {
   margin: 1rem;
   border: 1px solid rgba(0,0,0,.1);
@@ -31,8 +45,6 @@ footer {
   background-color: #f5f5f5;
   color: #000;
 }
-
-
 
 aside {
   position: relative;
@@ -44,12 +56,12 @@ aside img {
   height: auto;
 }
 
-/* Position the heading absolutely within the relative container aside */
 aside h2 {
   position: absolute;
-  top: 40px; /* Adjust as needed */
-  left: 20px; /* Adjust as needed */
+  top: 40px;
+  left: 20px;
 }
+
 .indent {
   padding-left: 1rem;
 }
