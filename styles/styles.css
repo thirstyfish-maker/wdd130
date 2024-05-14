@@ -89,7 +89,11 @@ aside img {
 }
 
 ul.box {
-  padding-left: 1rem; /* Add padding to the left of the list */
+  padding-left: 1.5rem; /* Increase padding to move bullets further from the edge */
+}
+
+ul.box li {
+  margin-left: 1rem; /* Add margin to the left of each list item for additional spacing */
 }
 
 footer p {
