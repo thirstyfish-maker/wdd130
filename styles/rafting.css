@@ -92,12 +92,12 @@ main {
 
 .hero h1 {
   position: absolute;
-  top: 50%;
+  top: 10px; /* Position the text at the top of the hero image */
   left: 50%;
-  transform: translate(-50%, -50%);
-  background-color: rgba(0, 0, 0, 0.5);
+  transform: translateX(-50%);
+  background-color: rgba(0, 0, 0, 0.5); /* Slight background for better readability */
   color: #fff;
-  padding: 1rem;
+  padding: 0.5rem 1rem;
 }
 
 article {
