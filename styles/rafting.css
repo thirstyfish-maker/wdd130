@@ -79,7 +79,7 @@ main {
 .hero {
   position: relative;
   text-align: center;
-  margin-top: 150px; /* Ensure hero starts below logo */
+  margin-top: 60px; /* Ensure hero starts below nav */
   margin-bottom: 20px;
 }
 
@@ -102,7 +102,6 @@ main {
 
 article {
   position: relative;
-  background-color: rgba(255, 255, 255, 0.8);
   padding: 1rem;
 }
 
