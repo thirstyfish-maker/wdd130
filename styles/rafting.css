@@ -37,6 +37,13 @@ header {
   text-align: center;
 }
 
+header .logo {
+  max-height: 150px;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
 header nav {
   width: 90%;
   margin: 0 auto;
@@ -54,17 +61,6 @@ header nav a {
 
 header nav a:hover {
   color: var(--nav-hover-link-color);
-}
-
-header .logo {
-  display: block;
-  margin: 0 auto;
-  max-height: 150px; /* Adjust height as needed */
-  position: absolute;
-  top: 10px;
-  left: 50%;
-  transform: translateX(-50%);
-  z-index: 1;
 }
 
 h1 {
@@ -90,6 +86,7 @@ main {
   display: block;
   width: 100%;
   height: auto;
+  max-height: 500px; /* Adjusted size */
 }
 
 .hero h1 {
@@ -108,11 +105,12 @@ article {
   padding: 1rem;
 }
 
-article img {
+article img.happy-client {
   float: right;
   margin-left: 20px;
   border: 3px solid var(--nav-bg-color);
   padding: 5px;
+  max-width: 400px; /* Adjusted size */
 }
 
 ul {
@@ -169,7 +167,7 @@ footer .sociallinks {
 }
 
 .rafting-images img {
-  width: calc(20% - 10px); /* Adjust to make the images fit within the container */
+  width: calc(40% - 10px); /* Adjust to make the images fit within the container */
   margin: 5px;
   border: 2px solid var(--primary-color);
 }
