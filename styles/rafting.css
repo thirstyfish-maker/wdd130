@@ -33,23 +33,38 @@ header {
   background-color: var(--primary-color);
   color: var(--secondary-color);
   padding: 0.5rem 0;
-}
-
-nav {
-  width: 90%;
-  margin: 0 auto;
+  position: relative;
   text-align: center;
 }
 
-nav a {
+header nav {
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+  top: 10px;
+}
+
+header nav a {
   text-decoration: none;
   color: var(--nav-link-color);
   margin: 0 15px;
   font-weight: bold;
 }
 
-nav a:hover {
+header nav a:hover {
   color: var(--nav-hover-link-color);
+}
+
+header .logo {
+  display: block;
+  margin: 0 auto;
+  max-height: 150px; /* Adjust height as needed */
+  position: absolute;
+  top: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1;
 }
 
 h1 {
@@ -132,6 +147,10 @@ footer .sociallinks a img {
   margin: 0 10px;
 }
 
+footer .sociallinks {
+  text-align: center;
+}
+
 .sr-only {
   position: absolute;
   width: 1px;
@@ -141,4 +160,16 @@ footer .sociallinks a img {
   overflow: hidden;
   clip: rect(0, 0, 0, 0);
   border: 0;
+}
+
+.rafting-images {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.rafting-images img {
+  width: calc(20% - 10px); /* Adjust to make the images fit within the container */
+  margin: 5px;
+  border: 2px solid var(--primary-color);
 }
