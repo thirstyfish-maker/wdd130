@@ -88,6 +88,10 @@ aside img {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
+ul.box {
+  padding-left: 1rem; /* Add padding to the left of the list */
+}
+
 footer p {
   text-align: center;
   font-size: 0.9rem;
