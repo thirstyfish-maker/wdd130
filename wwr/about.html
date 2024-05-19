@@ -1,20 +1,19 @@
 <!DOCTYPE html>
-<html lang="en-US">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Us | Whitewater Rafting Adventures</title>
     <meta name="description" content="Learn about Whitewater Rafting Adventures, our history, mission, and the thrilling experiences we offer.">
     <meta name="author" content="Damian Fink">
-    <link href="../styles/styles.css" rel="stylesheet">
     <link href="../styles/rafting.css" rel="stylesheet">
 </head>
 <body>
 
-<header>
+<header class="header">
     <img src="images/logo.png" alt="WWR Logo" class="logo">
     <nav>
-        <a href="index.html">Home</a>
+        <a href="../index.html">Home</a>
         <a href="about.html">About</a>
         <a href="trips.html">Trips</a>
         <a href="contact.html">Contact</a>
@@ -27,46 +26,64 @@
         <h1>Whitewater Rafting Adventures</h1>
     </div>
 
-    <article>
-        <img src="images/happy-client.jpg" alt="Happy Client" class="happy-client">
-        <p>Our company's mission is to provide thrilling and safe whitewater adventures that create lifelong memories. Visit our <a href="https://www.yourraftingwebsite.com" target="_blank" rel="noopener noreferrer">rafting website</a> for more information.</p>
-    </article>
-
-    <section>
-        <h2>History</h2>
-        <p>Our journey started over a decade ago, with a passion for the rapids and a dream to share it with the world.</p>
+    <section class="mission">
+        <h2>Our Mission</h2>
+        <article>
+            <img src="images/happy-client.jpg" alt="Happy Client" class="happy-client">
+            <p>Our company's mission is to provide thrilling and safe whitewater adventures that create lifelong memories. Visit our <a href="https://www.yourraftingwebsite.com" target="_blank" rel="noopener noreferrer">rafting website</a> for more information.</p>
+        </article>
     </section>
 
-    <section>
+    <section class="history">
+        <h2>History</h2>
+        <div class="history-content">
+            <p>Our journey started over a decade ago, with a passion for the rapids and a dream to share it with the world.</p>
+            <img src="images/history.jpg" alt="Rafting History" class="history-image">
+            <p>Over the years, we have grown and evolved, always maintaining our commitment to safety and excitement.</p>
+        </div>
+    </section>
+
+    <section class="adventures">
         <h2>Adventure Awaits You!</h2>
-        <div class="rafting-images">
-            <img src="images/rafting1.jpg" alt="Rafting Image 1">
-            <img src="images/rafting2.jpg" alt="Rafting Image 2">
-            <img src="images/rafting3.jpg" alt="Rafting Image 3">
-            <img src="images/rafting4.jpg" alt="Rafting Image 4">
-            <img src="images/rafting5.jpg" alt="Rafting Image 5">
+        <div class="adventure-gallery">
+            <figure>
+                <img src="images/rafting1.jpg" alt="Adventure 1">
+                <figcaption>Los Dientes del Diablo</figcaption>
+            </figure>
+            <figure>
+                <img src="images/rafting2.jpg" alt="Adventure 2">
+                <figcaption>Big Mallard</figcaption>
+            </figure>
+            <figure>
+                <img src="images/rafting3.jpg" alt="Adventure 3">
+                <figcaption>Half Day Adventure</figcaption>
+            </figure>
+            <figure>
+                <img src="images/rafting4.jpg" alt="Adventure 4">
+                <figcaption>Full Day Adventure</figcaption>
+            </figure>
+            <figure>
+                <img src="images/rafting5.jpg" alt="Adventure 5">
+                <figcaption>Extreme Rapids</figcaption>
+            </figure>
         </div>
     </section>
 </main>
 
 <footer>
     <p>&copy; 2023 Whitewater Rafting Adventures | Designed by Damian Fink</p>
-    <nav class="sociallinks">
+    <div class="social-links">
         <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
             <img src="images/facebook.jpg" alt="Facebook">
-            <span class="sr-only">Facebook</span>
         </a>
         <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
             <img src="images/twitter.jpg" alt="Twitter">
-            <span class="sr-only">Twitter</span>
         </a>
         <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
             <img src="images/instagram.jpg" alt="Instagram">
-            <span class="sr-only">Instagram</span>
         </a>
-    </nav>
+    </div>
 </footer>
 
 </body>
 </html>
-
