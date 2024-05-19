@@ -109,6 +109,11 @@ nav a:hover {
   display: block;
 }
 
+.history img.history-image {
+  width: 50%; /* Make the image half its original size */
+  height: auto;
+}
+
 .adventures {
   margin-bottom: 20px;
 }
