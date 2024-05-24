@@ -64,14 +64,9 @@
             <input type="email" id="email" name="email" required>
             
             <label>Purpose of the Message:</label>
-            <input type="radio" id="general" name="purpose" value="general" required>
-            <label for="general">General Inquiry</label>
-            
-            <input type="radio" id="reservation" name="purpose" value="reservation" required>
-            <label for="reservation">Reservation Question</label>
-            
-            <input type="radio" id="suggestion" name="purpose" value="suggestion" required>
-            <label for="suggestion">Website Suggestion</label>
+            <label class="radio-label"><input type="radio" id="general" name="purpose" value="general" required> General Inquiry</label>
+            <label class="radio-label"><input type="radio" id="reservation" name="purpose" value="reservation" required> Reservation Question</label>
+            <label class="radio-label"><input type="radio" id="suggestion" name="purpose" value="suggestion" required> Website Suggestion</label>
             
             <label for="message">Message:</label>
             <textarea id="message" name="message" rows="5" required></textarea>
